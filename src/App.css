@@ -1,0 +1,112 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Page background */
+body {
+  background-color: #f4f6fb;
+  color: #111827;
+}
+
+/* Main wrapper */
+div {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+
+/* Input card */
+div:first-of-type {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Add Note title */
+h2 {
+  color: #4f46e5;
+  margin-bottom: 15px;
+}
+
+/* Form */
+form label {
+  display: block;
+  font-size: 14px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px 12px;
+  margin: 8px 0 16px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  outline: none;
+}
+
+form input:focus {
+  border-color: #4f46e5;
+}
+
+/* Submit button */
+form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4f46e5;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #4338ca;
+}
+
+/* Notes section */
+div:nth-of-type(2) {
+  margin-top: 40px;
+}
+
+/* My notes heading */
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 10px;
+}
+
+/* Individual note */
+p {
+  background-color: #ffffff;
+  padding: 14px 16px;
+  margin-bottom: 14px;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  border-left: 4px solid #4f46e5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+/* Delete button */
+p button {
+  background-color: #ef4444;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+p button:hover {
+  background-color: #dc2626;
+}
